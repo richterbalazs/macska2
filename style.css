@@ -1,79 +1,149 @@
-body {
-    background-image: url("images/hero.jpg");
+body{
+    background-color: beige;
+    margin: auto;
+    width: 90%;
+    max-width: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fejlec{
+    background-image: url(images/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     height: 100vh;
+    text-align: center;
 }
 
-.focim {
-    text-align:center;
+h1{
+    padding-top: 5px;
+    margin:0;
 }
-
-a {
-    color:darkgrey
-}
-
-/* Menü kialakítása*/
-.menu ul {
+.menu ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 20px;
 }
 
-.menu2 ul {
-    list-style-type: none;
+.menu ul li{
+    text-align: center;
+    padding: 15px;
+    background-color: orange;
+    border-radius: 20px;
+    color: white;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    padding: 25px;
+}
+
+.keresem{
+    text-align: center;
+    color: white;
+}
+
+.keresem a{
+    text-decoration: none;
+    color: white;
+}
+
+#keresemacicat{
+    padding: 15px;
+    background-color: orange;
+    border-radius: 20px;   
+    width: 250px;
+    margin: auto;
+}
+
+
+#div2{
+    background-color: rgb(32, 32, 32);
+    text-align: center;
+    margin: 0;
     padding: 0;
+}
+
+.gombok{
+    padding-bottom: 45px;
+}
+
+.div2tartalom{
+    color: white;
+    padding: 10px;
+}
+
+
+.div3{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.div3tartalom ul{
+    text-align: left;
+    color:white;
+}
+
+.kepek{
+    position: relative;
+    list-style-type: none;
     margin: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    gap: 55px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
-.menu2 ul li {
-    padding: 10px;
-    background-color: orange;
+.elhelyezes{
+    width: 100%;
+    border-radius: 10%;
+}
+
+.text{
+    position: absolute;
+    left: 65%;
+    top: 82%;
+}
+
+.textketto{
+    position: absolute;
+    left: 65%;
+    top: 82%;
+}
+
+.div4{
+    background-color: rgb(32, 32, 32);
+    color: white;
     text-align: center;
-    border-radius: 25px;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    color:whitesmoke;
+.div4tartalom ul{
+    text-align: left;
 }
 
-.macskalandalatti {
-    color: grey;
+.textharom{
+    position: absolute;
+    right:62%;
+    top: 82%;
+    color: white;
 }
-
-.menu ul li {
-    padding: 10px;
-    background-color: orange;
-    text-align: center;
-    border-radius: 25px;
-}
-
-.menu ul a {
-    text-decoration: none;
-    color: whitesmoke;
-}
-
-.menu ul a:hover {
-    color: brown;
-}
-
-.menu ul li:hover {
-    background-color: blueviolet;
-}
-
-.div2 {
-    text-align: center;
-    color: whitesmoke;
-}
-
-.keresem {
-    padding: 10px;
-    background-color: orange;
-    text-align: center;
-    border-radius: 25px;
+.textnegy{
+    position: absolute;
+    right: 19%;
+    top: 82%;
+    color: white;
 }
